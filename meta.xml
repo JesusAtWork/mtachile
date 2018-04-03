@@ -1,0 +1,81 @@
+<meta>
+    <info author="Marcelo" name="Mta Chile" version="0.23" type="script"></info>
+
+	<include resource="freeroam"/>
+
+	<script src="client/main.lua" type="server"/>
+	<script src="client/skins.lua" type="client"/> 
+	<script src="client/cars.lua" type="client"/> 
+	<script src="client/objects.lua" type="client"/> 
+	<script src="client/huds.lua" type="client"/> 
+
+	<script src="server/blips.lua" type="server"/>
+	<script src="server/spawn.lua" type="server"/>
+
+	<!-- Maps -->
+	<mpa src="maps/otakus.map" dimension="0"/>
+	<!-- los pacos -->
+	<file src="skins/police/1.dff"/>
+	<file src="skins/police/1.txd"/>
+	<file src="skins/police/2.dff"/>
+	<file src="skins/police/2.txd"/>
+	<file src="skins/police/3.dff"/>
+	<file src="skins/police/3.txd"/>
+	<file src="skins/police/4.dff"/>
+	<file src="skins/police/4.txd"/>
+
+	<!-- los grove -->
+	<file src="skins/colo/1.dff"/>
+	<file src="skins/colo/1.txd"/>
+	<file src="skins/colo/2.dff"/>
+	<file src="skins/colo/2.txd"/>
+	<file src="skins/colo/3.dff"/>
+	<file src="skins/colo/3.txd"/>
+
+	<!-- los ballas -->
+	<file src="skins/u/1.dff"/>
+	<file src="skins/u/1.txd"/>
+	<file src="skins/u/2.dff"/>
+	<file src="skins/u/2.txd"/>
+	<file src="skins/u/3.dff"/>
+	<file src="skins/u/3.txd"/>
+
+	<!-- los otakus -->
+	<file src="skins/otakus/1.dff"/>
+	<file src="skins/otakus/1.txd"/>
+	<!--<file src="skins/otakus/2.dff"/>
+	<file src="skins/otakus/2.txd"/>-->
+	<file src="skins/otakus/3.dff"/>
+	<file src="skins/otakus/3.txd"/>
+	<file src="skins/otakus/4.dff"/>
+	<file src="skins/otakus/4.txd"/>	
+	<file src="skins/otakus/5.dff"/>
+	<file src="skins/otakus/5.txd"/>	
+	<!--autos -->
+
+	<!--<file src="cars/bus.txd"/>
+	<file src="cars/bus.dff"/>-->
+	<file src="cars/copcarsf.txd"/>
+	<file src="cars/copcarsf.dff"/>
+	<file src="cars/pony.txd"/>
+	<file src="cars/pony.dff"/>	
+	<file src="cars/turismo.txd"/>
+	<file src="cars/turismo.dff"/>	
+	<file src="cars/elegy.txd"/>
+	<file src="cars/elegy.dff"/>	
+
+	<!-- objetos -->
+	
+	<file src="objects/diego.txd"/>
+	<file src="objects/cj_ext_vend.txd"/>
+	<file src="objects/cs_mountaintop.txd"/>
+
+	<!--logos-->
+
+	<file src="client/img/udechile.png"/>
+	<file src="client/img/colocolo.png"/>
+	<file src="client/img/police.png"/>
+	<file src="client/img/otakus.png"/>
+
+	<file src="client/sounds/himno.mp3"/>
+</meta>
